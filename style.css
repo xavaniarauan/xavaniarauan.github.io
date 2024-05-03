@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  background-image: url("path/to/your/Vector\ Flower.png");
+  background-size: cover;
+  background-position: center;
+}
+
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  .form-container label {
+    margin-bottom: 5px;
+  }
+  
+  #number {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 7px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
